@@ -4,9 +4,9 @@ public class SingletonExample {
 
     public static void main(String[] args) {
 
-        Singleton instance = Singleton.getInstance();
+        SingletonNew instance = SingletonNew.getInstance();
         System.out.println(instance);
-        Singleton secondInstance = Singleton.getInstance();
+        SingletonNew secondInstance = SingletonNew.getInstance();
         System.out.println(secondInstance);
 
         /*
